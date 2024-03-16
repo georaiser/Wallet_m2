@@ -1,0 +1,111 @@
+body {
+	margin-top: 100px;
+	background-color: rgba(36, 51, 61, 0.89);
+	font:600 10px/14px 'Open Sans',sans-serif;
+}
+
+.login-html{
+    width: 100%;
+	margin:0 auto;
+	max-width:500px;
+	min-height:500px;
+	position:relative;
+    background-image:url(../img/img1.jpg);
+	background-size: cover;
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);	
+}
+
+.login-container{
+	width:100%;
+	height:100%;
+	position:absolute;
+	padding:90px 70px 50px 70px;
+	background:rgba(0, 0, 0, 0.5);
+}
+
+.login-form{
+	position:relative
+}
+
+.login-form .signin-form,
+.login-form .forgot-form{
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	position:absolute;
+	transform: rotateY(180deg);
+    backface-visibility: hidden;
+}
+
+.login-container .sign-in,
+.login-container .forgot-pwd{
+	display:none;
+}
+
+.form-check-label,
+.form-label,
+.btn{
+	text-transform:uppercase;
+}
+
+.btn-primary {
+    color: #feffb98a;
+	font-size:18px;
+    font-weight: bold;    
+}  
+
+.login-form .form-control{
+	width:100%;
+	color:#fff;
+	font-size:15px;
+	display:block;
+}
+
+.login-form .form-label{
+	width:100%;
+	color:#aaa;
+	font-size:10px;
+	display:block;
+}
+
+/*label for options*/
+.login-container .form-check-label{
+	font-size:20px;
+	color:#585552;
+	padding-bottom:5px;
+	margin:0 15px 15px 0;
+	display:inline-block;
+	border-bottom:2px solid transparent;
+}
+
+/* label remember me */
+.form-switch .form-check-label{
+	width:100%;
+	padding:10px;
+	color:#af89aa;
+	font-size:12px;
+	display:inline;
+}
+
+/*label for option selected*/
+.login-container .sign-in:checked + .form-check-label,
+.login-container .forgot-pwd:checked + .form-check-label{
+	color:#a2bd8d;
+	border-color:#592a74;
+}
+
+.login-form .form-control,
+.btn{
+	border:none;
+	padding:10px 30px;
+	border-radius:25px;
+	background:rgba(255,255,255,.1);
+}
+
+.login-container .sign-in:checked + .form-check-label + .forgot-pwd + .form-check-label + .login-form .signin-form{
+	        transform:rotate(0);
+}
+.login-container .forgot-pwd:checked + .form-check-label + .login-form .forgot-form{
+	        transform:rotate(0);
+}

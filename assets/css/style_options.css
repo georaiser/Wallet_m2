@@ -1,0 +1,85 @@
+body {
+	margin-top: 30px;
+	background-color: rgba(21, 22, 22, 0.89);
+	font: 600 10px/14px 'Open Sans', sans-serif;
+	color: aliceblue
+}
+
+.transactions-html {
+	border-radius: 25px;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	max-width: 500px;
+	/*min-height: 400px;*/
+	background-image: url(../img/img5.jpg);
+	box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19)
+}
+
+.transactionOp,
+.transactionDir {
+	border-radius: 25px;
+	/*min-height: 370px;*/
+	opacity: 0.9;
+	background-color: rgba(36, 48, 58, 0.267);
+	box-shadow: 0px 3px 6px 1px rgba(124, 138, 127, 0.6);
+}
+
+.transactionOp .btn {
+	margin-top: -60px;
+	height: 40px;
+	width: 100px;
+	border: 1px solid #2c5169;
+	color: #517e9c;
+	font-size: 2.0em;
+	background-color: rgba(52, 65, 65, 0.842);
+	box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+
+.transactionDir .btn {
+	margin-top: -10px;
+	height: 40px;
+	width: 100px;
+	border: 1px solid #2c5169;
+	color: #517e9c;
+	font-size: 2.0em;
+	background-color: rgba(52, 65, 65, 0.842);
+	box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+
+.button-container {
+	text-align: right;
+}
+
+.button-container a {
+	margin-left: 30px;
+	margin-right: 20px;
+}
+
+.form-group {
+	border-radius: 10px;
+	margin-top: 25px;
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: rgba(110, 133, 160, 0.2);
+}
+
+.form-control {
+	background-color: rgba(117, 162, 207, 0.3);
+	color: #ccd7df;
+}
+
+#transactionInfo {
+	color: #766885;
+	font-size: 1.4em;
+}
+
+#nameOp {
+	color: #a2c3c4c2;
+	font-size: 2.5em;
+}
+
+#transactionForm .form-group {
+	color: #a2c3c4c2;
+	font-size: 1.3em;
+}
